@@ -1,0 +1,87 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environments
+.env/
+.venv/
+venv/
+env/
+ENV/
+
+# dotenv
+.env
+.env.*
+
+# VS Code and other IDEs
+.vscode/
+.idea/
+*.swp
+
+# macOS and Linux
+.DS_Store
+*.log
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Jupyter/IPython
+.ipynb_checkpoints
+
+# Excel temp files
+~$*.xlsx
+*.bak
+
+# Chroma vector store
+chroma_db_openai/
+chroma.sqlite3
+*.pt
+*.onnx
+*.bin
+
+# Pip
+pip-log.txt
+
+# OS-specific
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Temporary and test data
+*.tmp
+*.temp
+*.old
+*.orig
+*.rej
+test_output/
+tests/__pycache__/
+
+# Notebook outputs
+*.nbconvert.ipynb
+
+# MyPy / Pyright / Type checker
+.mypy_cache/
+.pytype/
+.typing_cache/
+
+# LangChain hub/cache (if used)
+.cache/
+langchain_cache/
+
+# node modules (if used for frontend)
+node_modules/
+# Excel issue log
+data/Issue Log.xlsx
+~$*.xlsx
+
+# Chroma DB
+chroma_db_openai/
+chroma.sqlite3
