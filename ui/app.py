@@ -11,9 +11,9 @@ from retrievers.rag_pipeline import load_rag_pipeline
 load_dotenv(dotenv_path=os.path.join(os.path.dirname(__file__), "..", ".env"))
 
 # --- Streamlit setup ---
-st.set_page_config(page_title="AI Issue Resolution Assistant", page_icon="🤖", layout="wide")
-st.title("🤖 AI Issue Resolution Assistant")
-st.info("Chatbot uses SAP EWM logs to provide resolution summaries.")
+st.set_page_config(page_title="EWM Buddy – AI Chatbot for SAP Resolution Help", page_icon="🤖", layout="wide")
+st.title("🔍 EWM Buddy – AI Chatbot for SAP Resolution Help")
+st.info("Answers from SAP knowledge base — instantly.")
 
 # --- Load RAG pipeline ---
 qa_chain, llm = load_rag_pipeline()
